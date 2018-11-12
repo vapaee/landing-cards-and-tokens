@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-repeat: repeat;
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%), url(assets/texture-bg.jpg);;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-bg.jpg);;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-bg.jpg);;
+}
+
+.expand {
+    width: 100%;
+}
+
+.text-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-subtitle {
+    font-size: 18px;
+    // font-weight: bold;
+    color: white;
+}
+
+.back-wood {
+    background-position: center center, top center, bottom center, center center;
+    background-repeat: repeat repeat, repeat no-repeat, repeat no-repeat, repeat repeat;
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%), url(assets/texture-wood-top.jpg), url(assets/texture-wood-bottom.jpg), url(assets/texture-wood-center.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-wood-top.jpg), url(assets/texture-wood-bottom.jpg), url(assets/texture-wood-center.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-wood-top.jpg), url(assets/texture-wood-bottom.jpg), url(assets/texture-wood-center.jpg);
+}
+
+.back-wood-top {
+    height: 56px;
+    background-position: center center, top center;
+    background-repeat: repeat repeat, repeat no-repeat;
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%), url(assets/texture-wood-top.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-wood-top.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-wood-top.jpg);
+}
+
+.back-wood-center {
+    background-position: center center, center center;
+    background-repeat: repeat repeat, repeat repeat;
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%), url(assets/texture-wood-center.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-wood-center.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-wood-center.jpg);
+}
+
+.back-wood-bottom {
+    height: 54px;
+    background-position: center center, bottom center;
+    background-repeat: repeat repeat, repeat no-repeat;
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%), url(assets/texture-wood-bottom.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-wood-bottom.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%), url(assets/texture-wood-bottom.jpg);
+}
+
+.drop-shadow {
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.padding-large {
+    padding: 30px;
+}
+
+.frame-border {
+    border-width: 4px;
+    border-style: solid;
+    border-top-color: rgba(0,0,0,0.5);
+    border-left-color: rgba(0,0,0,0.3);
+    border-bottom-color: rgba(255,255,255,0.5);
+    border-right-color: rgba(255,255,255,0.3);
+}
+
+
+div.cnt-card {
+    border-width: 0px;
+    background-color: transparent;
+    height: 100px;
+    width: 71.06px;
+    vertical-align: top;
+}
+
+@media (min-width: 576px) {
+    div.cnt-card {
+        height: 118.2px;
+        width: 84px;
+    }
+}
+
+@media (min-width: 768px) {
+    div.cnt-card {
+        height: 147.75px;
+        width: 105px;
+    }    
+}
+
+@media (min-width: 992px) {
+    div.cnt-card {
+        height: 157.6px;
+        width: 112px;
+    }
+}
+
+@media (min-width: 1200px) {
+    div.cnt-card {
+        height: 197px;
+        width: 140px;
+    }
+}

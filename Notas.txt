@@ -1,0 +1,12 @@
+FAQ:
+- airdrop 
+  https://steemit.com/cardsandtokens/@viterbo/telos-trading-card-6-telos-network-proposals-for-snapshot-and-airdrops
+- road map
+    Time Plan: Phased Approach
+    (1) Start building demo in testnet.
+    (2) When the the Telos launches most likely have Proof of Concept (Demo App),
+    (3) There will be test period and fine tuning before your DApp goes live.
+    (4) There are several ideas and complex features which will be added as DApps gets mature
+- team
+  me
+  
