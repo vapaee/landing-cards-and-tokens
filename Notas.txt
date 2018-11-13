@@ -1,12 +1,7 @@
-FAQ:
-- airdrop 
-  https://steemit.com/cardsandtokens/@viterbo/telos-trading-card-6-telos-network-proposals-for-snapshot-and-airdrops
-- road map
-    Time Plan: Phased Approach
-    (1) Start building demo in testnet.
-    (2) When the the Telos launches most likely have Proof of Concept (Demo App),
-    (3) There will be test period and fine tuning before your DApp goes live.
-    (4) There are several ideas and complex features which will be added as DApps gets mature
-- team
-  me
-  
+Albums 
+
+Cards & Tokens es una nueva plataforma que permitirá a los ususarios exponer su trabajo de una nueva e innovadora forma, al mismo tiempo que podrán crear comunidad y ganar dinero en el proceso.
+
+De la misma manera que tu puedes tener tu página en Facebook o Youtube y hacer publicaciones o videos para tus subscriptores, en Cards & Tokens podrás crear un album temático y publicar cartas coleccionables para todos tu seguidores. Estos se convertirán en colleccionistas y a diferencia de las otras plataformas, podrán tomar un rol activo tratando de conseguir la mayor cantidad de copias de tus mejores cartas para colocarlas en el album y así participar por un premio final por cada album.
+
+jepsY1pT
