@@ -34,8 +34,8 @@
 
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item" [ngClass]="{active: app.stateStartsWith('faq')}">
-                    <a class="nav-link" routerLink="/faq" >{{local.string.FAQ}}</a>
+                <li class="nav-item" [ngClass]="{active: app.stateStartsWith('home')}">
+                    <a class="nav-link" routerLink="/home" >{{local.string.Home}}</a>
                 </li>
                 <li class="nav-item" [ngClass]="{active: app.stateStartsWith('cards')}">
                     <a class="nav-link" routerLink="/cards" >{{local.string.Cards}}</a>
@@ -50,7 +50,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/vapaee/cards-and-tokens/tree/master/white-paper" target="_blank" >{{local.string.WPaper}}</a>
                 </li>
-            -->                
+            -->
+                <li class="nav-item" [ngClass]="{active: app.stateStartsWith('faq')}">
+                    <a class="nav-link" routerLink="/faq" >{{local.string.FAQ}}</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://steemit.com/@viterbo" target="_blank" >{{local.string.blog}}</a>
                 </li>             
