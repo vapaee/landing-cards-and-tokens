@@ -15,7 +15,7 @@
 }
 
 page-container {
-    height: calc(100% - 56px);
+    height: calc(100% - 51px);
     display: block;
     overflow: auto;
     position: relative;
@@ -36,7 +36,7 @@ page-container {
 
 @media (min-width: 576px) {
     page-container {
-        height: calc(100% - 56px);
+        height: calc(100% - 51px);
     }      
     img.cnt-logo {
         height: 23px;
@@ -45,7 +45,7 @@ page-container {
 
 @media (min-width: 768px) {
     page-container {
-        height: calc(100% - 58px);
+        height: calc(100% - 51px);
     }  
     img.cnt-logo {
         height: 30px;
@@ -54,7 +54,7 @@ page-container {
 
 @media (min-width: 992px) {
     page-container {
-        height: calc(100% - 63px);
+        height: calc(100% - 55.8px);
     }    
     img.cnt-logo {
         height: 37px;
@@ -64,7 +64,7 @@ page-container {
 
 @media (min-width: 1200px) {
     page-container {
-        height: calc(100% - 71px);
+        height: calc(100% - 57px);
     }
     img.cnt-logo {
         height: 45px;

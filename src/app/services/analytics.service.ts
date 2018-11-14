@@ -19,7 +19,7 @@ export class AnalyticsService {
                 }    
                 window.clearInterval(interval);
             }, 10000);
-            window.setInterval(() => {
+            interval = window.setInterval(() => {
                 if (typeof ga === 'function') {
                     resolve(ga);
                     window.clearInterval(interval);

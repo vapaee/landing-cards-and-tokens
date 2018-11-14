@@ -16,7 +16,7 @@ const routes: Routes = [
     children: [
       { path: 'home',             data: { state: "home" }, component: HomePage },
       { path: 'faq',              data: { state: "faq" }, component: FaqPage },
-      { path: 'token',            data: { state: "token" }, component: TokenPage },
+      // { path: 'token',            data: { state: "token" }, component: TokenPage },
       { path: 'cards',            data: { state: "cards" }, component: CardsPage },
       { path: 'albums',           data: { state: "albums" }, component: AlbumsPage,
         children: [

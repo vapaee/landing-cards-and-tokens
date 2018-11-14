@@ -20,6 +20,7 @@ import { DataService } from './services/data.service';
 import { LocalStringsService } from './services/local-strings.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CardsPage } from './pages/cards/cards.page';
+import { SocialLoginModule } from './modules/social-login';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { CardsPage } from './pages/cards/cards.page';
     imports: [
         HttpClientModule,
         BrowserModule,
-        AppRoutingModule
+        AppRoutingModule,
+        SocialLoginModule
     ],
     providers: [
         AppService,

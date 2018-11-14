@@ -26,6 +26,8 @@ export class RootPage implements OnInit {
         if (target && $(navbar).hasClass("show")) {
             $(target).click();
         }
+        var target = this.elRef.nativeElement.querySelector("page-container");
+        target.scrollTop = 0;
     }
 }
 
