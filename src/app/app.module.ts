@@ -12,7 +12,7 @@ import { AlbumTelosPage } from './pages/album-telos/album-telos.page';
 import { AlbumOpenmicPage } from './pages/album-openmic/album-openmic.page';
 import { TokenPage } from './pages/token/token.page';
 
-import { AppService } from './services/app.service';
+import { AppService, LoadingOverall } from './services/app.service';
 import { AlbumsPage } from './pages/albums/albums.page';
 import { AnalyticsService } from './services/analytics.service';
 import { DomService } from './services/dom.service';
@@ -35,7 +35,8 @@ import { SocialLoginModule } from './modules/social-login';
         TokenPage,
         RootPage,
         PageContainer,
-        CardsPage
+        CardsPage,
+        LoadingOverall
     ],
     imports: [
         HttpClientModule,

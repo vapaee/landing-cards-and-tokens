@@ -8,7 +8,7 @@ import { AppService } from 'src/app/services/app.service';
 })
 export class AlbumOpenmicPage implements OnInit {
 
-    constructor(private app: AppService) {
+    constructor(public app: AppService) {
     }
 
     ngOnInit() {
