@@ -13,8 +13,8 @@ export class RootPage implements OnInit {
 
     constructor(
         public app: AppService,
-        private local: LocalStringsService,
-        private elRef: ElementRef) {
+        public local: LocalStringsService,
+        public elRef: ElementRef) {
     }
     
     ngOnInit() {

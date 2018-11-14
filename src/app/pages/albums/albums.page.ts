@@ -10,8 +10,8 @@ import { LocalStringsService } from 'src/app/services/local-strings.service';
 export class AlbumsPage implements OnInit {
 
     constructor(
-        private app: AppService,
-        private local: LocalStringsService) {
+        public app: AppService,
+        public local: LocalStringsService) {
     }
 
     ngOnInit() {
