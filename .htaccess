@@ -28,12 +28,12 @@
     # -> redirijo al index de la carpeta www, concatenando el path luego de un /#
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ /www/index.php#$1 [L]    
+    RewriteRule ^(.*)$ /www/index.html#$1 [L]    
     
     # si me escriben solo el dominio (el path es /) no entra en los casos anteriores así que
     # si la uri es /
-    # -> redirigir a /www/index.php
+    # -> redirigir a /www/index.html
     RewriteCond %{REQUEST_URI} ^/$
-    RewriteRule ^(.*)$ /www/index.php [L]        
+    RewriteRule ^(.*)$ /www/index.html [L]        
     
 </IfModule>
