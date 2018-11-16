@@ -21,6 +21,7 @@ import { LocalStringsService } from './services/local-strings.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CardsPage } from './pages/cards/cards.page';
 import { SocialLoginModule } from './modules/social-login';
+import { BroadcastService } from './services/broadcast.service';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { SocialLoginModule } from './modules/social-login';
         AnalyticsService,
         DomService,
         DataService,
-        LocalStringsService
+        LocalStringsService,
+        BroadcastService
     ],
     bootstrap: [AppComponent]
 })
