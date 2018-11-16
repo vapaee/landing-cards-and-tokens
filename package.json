@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "prod": "git merge master -m 'merge master'; ng build --aot --buildOptimizer --prod; git add -A; git commit -m 'update'; git push; amazon_server_console;"
+    "prod": "git checkout prod && git merge master -m 'merge master' && ng build --aot --buildOptimizer --prod && git add -A && git commit -m 'update' && git push && amazon_server_console;"
   },
   "private": true,
   "dependencies": {

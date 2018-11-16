@@ -12,22 +12,18 @@ export class LocalStringsService {
     localKey:string;
 
     constructor(private http: HttpClient) {
-        this.localKey = "en_US";
         this.string = {};
         this.locals = {};
-        this.waitReady = this.fetchLocals(this.localKey);
 
         var userLang = navigator.language || navigator.userLanguage;
         switch (userLang.substr(0,2)) {
             case "es":
                 this.localKey = "es_ES";
+                break;
             default:
-                // broadcast event unknown lang
-
+                this.localKey = "en_US";
         }
-        if (userLang.substr(0,2) == "es") {
-
-        }
+        this.waitReady = this.fetchLocals(this.localKey);
     }
 
     fetchLocals(localKey:string) {
@@ -36,4 +32,10 @@ export class LocalStringsService {
             this.locals[this.localKey] = this.string;
         });
     }
+
+    setLocal(localKey:string) {
+        this.localKey = localKey;
+        return this.fetchLocals(this.localKey);
+    }
+
 }
