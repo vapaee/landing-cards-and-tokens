@@ -22,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CardsPage } from './pages/cards/cards.page';
 import { SocialLoginModule } from './modules/social-login';
 import { BroadcastService } from './services/broadcast.service';
+import { HowItWorksPage } from './pages/how-it-works/how-it-works.page';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { BroadcastService } from './services/broadcast.service';
         RootPage,
         PageContainer,
         CardsPage,
-        LoadingOverall
+        LoadingOverall,
+        HowItWorksPage
     ],
     imports: [
         HttpClientModule,
