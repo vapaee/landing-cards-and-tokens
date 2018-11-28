@@ -9,6 +9,7 @@ import { AlbumOpenmicPage } from './pages/album-openmic/album-openmic.page';
 import { AlbumsPage } from './pages/albums/albums.page';
 import { TokenPage } from './pages/token/token.page';
 import { CardsPage } from './pages/cards/cards.page';
+import { HowItWorksPage } from './pages/how-it-works/how-it-works.page';
 
 const routes: Routes = [
   { path: '',                     data: { state: "root" }, redirectTo: '/home', pathMatch: 'full' },
@@ -17,13 +18,15 @@ const routes: Routes = [
       { path: 'home',             data: { state: "home" }, component: HomePage },
       { path: 'faq',              data: { state: "faq" }, component: FaqPage },
       // { path: 'token',            data: { state: "token" }, component: TokenPage },
-      { path: 'cards',            data: { state: "cards" }, component: CardsPage },
+      { path: 'how-it-works',     data: { state: "how-it-works" }, component: HowItWorksPage },
+      
       { path: 'albums',           data: { state: "albums" }, component: AlbumsPage,
         children: [
           { path: 'telos',        data: { state: "album-telos" }, component: AlbumTelosPage },
           { path: 'openmic',      data: { state: "album-openmic" }, component: AlbumOpenmicPage },
         ]
       }
+      
     ]
   },
   { path: '**',                   data: { state: "404" }, component: NotFoundPage }
