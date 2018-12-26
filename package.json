@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "save": "git add -A; git commit -m 'save'; git push;",
     "prod": "git checkout prod && git merge master -m 'merge master' && ng build --aot --buildOptimizer --prod && git add -A && git commit -m 'update' && git push && amazon_server_console;"
   },
   "private": true,
