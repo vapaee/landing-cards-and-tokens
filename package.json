@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "serve": "ng serve --poll=2000 -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
