@@ -1,1 +1,27 @@
 https://bootswatch.com/slate/
+
+-- Tokens Page --
+- add token to Sqrl
+- add token to Scattre
++ distribución inicial (airdrop)
+- moneda inflacionaria
+  - revenew for VPE Token holders (company owners)
+  - rewards
+    - best cards
+    - best albums
+    - best critics
+    - daily users
+  - inflation controls
+    - adding more C&T Services
+    - reducing VPE Token holders revenue
+    - CNT token burning financiated by worker proposal
+    - adding micro fees to the Card Market transactions
+    - agrandar el economic cycle
+- CNT Token usage
+  - cards market
+  - functionality upgrades
+  - buy card buttons
+  - self promotion
+  
+-- TODO --
+- cambiar la transaccion por defecto en el eosio.cardsandtokens.com para que manden una DONACIÓN a la cuenta cardsntokens

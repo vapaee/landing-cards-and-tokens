@@ -10,6 +10,7 @@ import { AlbumsPage } from './pages/albums/albums.page';
 import { TokenPage } from './pages/token/token.page';
 import { CardsPage } from './pages/cards/cards.page';
 import { HowItWorksPage } from './pages/how-it-works/how-it-works.page';
+import { RedirectPage } from './pages/redirect/redirect.page';
 
 const routes: Routes = [
   { path: '',                     data: { state: "root" }, redirectTo: '/home', pathMatch: 'full' },
@@ -17,7 +18,7 @@ const routes: Routes = [
     children: [
       { path: 'home',             data: { state: "home" }, component: HomePage },
       { path: 'faq',              data: { state: "faq" }, component: FaqPage },
-      // { path: 'token',            data: { state: "token" }, component: TokenPage },
+      { path: 'token',            data: { state: "token" }, component: TokenPage },
       { path: 'how-it-works',     data: { state: "how-it-works" }, component: HowItWorksPage },
       
       { path: 'albums',           data: { state: "albums" }, component: AlbumsPage,
@@ -25,7 +26,8 @@ const routes: Routes = [
           { path: 'telos',        data: { state: "album-telos" }, component: AlbumTelosPage },
           { path: 'openmic',      data: { state: "album-openmic" }, component: AlbumOpenmicPage },
         ]
-      }
+      },
+      { path: 'deploy/:type/:id', data: { state: "deploy" }, component: RedirectPage }
       
     ]
   },
