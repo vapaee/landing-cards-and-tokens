@@ -11,7 +11,6 @@
     "demo_at": "Try the proof of concept demo at",
     "album_openmic_des": "Steemit Open Mic is a weekly open audition contest carried on the steem blockchain, in which musicians can participate with an original song or a cover. Cards & Tokens first album is completely dedicated to this great community of talented people on the cryptospace and is already fully functional in the online prototype. You can watch all the great OpenMic trading cards on the website, but you can also login and start collecting copies of these cards to start filling the Open Mic Album.",
     "album_telos_des": "Cards & Tokens will be developed on the TELOS blockchain and as a sign of commitment we will have a new album dedicated exclusively to promoting this new blockchain. This Album, unlike the previous one has a finite number of cards (ten in this case) and each card has a fixed place inside the album (like a normal collectible album). This album is not functional yet because we want the users to start collecting these cards already on the Telos mainnet and not in a prototype. We are planning to create a Worker proposal to solicit funds to reward the first N users who fill the album.",
-
     "tkn_intro":"CNT is the Cards & Tokens official currency token based on EOSIO standar blockchain technology. ",
     "tkn_air_1": "The first distribution (airdrop) based on the original TLOS snapshot taken at block 6M pased 17 Jan 2019 was performed in two parts. The first part includes all accounts with balances above 1000.0000 TLOS, and the sencond part includes accounts with balances above 100.0000 TLOS and below 1000.0000 TLOS.",
     "tkn_air_2": "Less than 50M CNT tokens were distributed.",
@@ -49,12 +48,10 @@
     "tkn_demand_cont_2": "Some of the functionalities of the platform will be upgradable and the users will need to pay with CNT tokens if they want to incorporate some.",
     "tkn_demand_cont_3": "For content creators there will be the possibility to include a button in the cards they make. This way the creator may publish a special edition of the card which has a button that when pressed by the owner of the card, it gives some temporary upgrades or permanent rewards in CNT tokens for the owner. A card with a button will be more popular that a card without one, just because of the benefit that button gives for the owner. The cost of adding this kind of updrages to the cards is paid with CNT tokens.",
     "tkn_demand_cont_4": "Users can promote their cards and albums by 'staking' some CNT tokens for a period of three economic cycles. The tokens are not spent, but the creator will need many tokens if he is an active publisher.",
-
     "InfCur": "Inflationary Currency",
     "InfControl": "Inflation Control",
     "Rewards": "Rewards",
     "TokDemand": "CNT Token Demand",
-
     "faq_q1": "When and how is going to be performed the CNT Token airdrop?",
     "faq_a1": "Cards & Tokens is going to be deployed on Telos network mainly because of the resources cost. But will also take advantage of the new services that Telos will provide sush as a token snapshot on memory to query from everyone. This will result in a very efficient and cheaper airdrop performance. ",
     "faq_q2": "What would be the roadmap and where is it now the project?",

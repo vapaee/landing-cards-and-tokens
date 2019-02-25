@@ -11,7 +11,6 @@
     "demo_at": "Prueba la demo prueba de concepto en",
     "album_openmic_des": "Steemit Open Mic es un concurso semanal abierto de audiciones que se lleva a cabo en la blockchain de steem, en el que los músicos pueden participar con una canción original o haciendo un cover. El primer álbum de Cards & Tokens está completamente dedicado a esta gran comunidad de personas talentosas en el criptospacio y ya es completamente funcional en el prototipo en línea. Ya puedes echarle un vistazo a todas las excelentes cartas coleccionables de OpenMic en el sitio web, pero también puede iniciar sesión y comenzar a coleccionar copias de estas cartas para comenzar a llenar el Álbum de Steemit Open Mic.",
     "album_telos_des": "Cards & Tokens se desarrollará sobre la blockchain de TELOS y, como muestra de compromiso, tendremos un nuevo álbum dedicado exclusivamente a la promoción de esta nueva blockchain. Este álbum, a diferencia del anterior, tiene un número finito de cartas (diez en este caso) y cada una tiene un lugar fijo dentro del álbum (como un álbum normal de figuritas). Este álbum aún no se encuentra funcional porque queremos que los usuarios comiencen a coleccionar estas cartas directamente sobre la blockchain de Telos y no en un prototipo descartable. Estamos planeando crear un Worker Proposal para solicitar fondos y poder recompensar a los primeros N usuarios que llenen el álbum.",
-
     "tkn_intro":"CNT es el token oficial de Cards & Tokens basado en la tecnología blockchain estándar de EOSIO. ",
     "tkn_air_1": "La primera distribución (airdrop) basada en el snapshot original de TLOS, tomada en el bloque 6M del 17 de enero de 2019, se realizó en dos partes. La primera parte incluye todas las cuentas con saldos por encima de 1000.0000 TLOS, y la parte simple incluye cuentas con saldos por encima de 100.0000 TLOS y por debajo de 1000.0000 TLOS.",
     "tkn_air_2": "Se distribuyeron menos de 50M tokens CNT.",
@@ -49,15 +48,10 @@
     "tkn_demand_cont_2": "Algunas de las funcionalidades de la plataforma serán actualizables y los usuarios deberán pagar con tokens de CNT si desean incorporar algunos.",
     "tkn_demand_cont_3": "Para los creadores de contenido, existirá la posibilidad de incluir un botón en las cartas que hacen. De esta manera, el creador puede publicar una edición especial de la carta con un botón que cuando es presionado por el propietario de la carta, otorga algunas actualizaciones temporales o recompensas permanentes en tokens CNT para el propietario. Una carta con un botón será más popular y más requerida que una carta sin él, solo por el beneficio que el botón le otorga al propietario. El costo de agregar este tipo de actualizaciones a las cartas se paga con tokens CNT.",
     "tkn_demand_cont_4": "Los usuarios pueden promocionar sus cartas y álbumes 'stakeando' algunos tokens CNT por un período de tres ciclos económicos. Los tokens no se gastan, pero el creador necesitará muchos tokens si es un publicador activo.",
-
     "InfCur": "Moneda inflacionaria",
     "InfControl": "Control de inflacion",
     "Rewards": "Recompensas",
     "TokDemand": "Demanda de token CNT",
-
-
-
-
     "faq_q1": "¿Cuándo y cómo se realizará el airdrop de los tokens CNT?",
     "faq_a1": "Cards & Tokens se implementará en la blockchain de Telos principalmente debido al costo de los recursos. Pero también aprovechará los nuevos servicios que Telos proporcionará, como un snapshot de TLOS tokens en memoria disponible para consultar desde cualquier contrato inteligente. Esto dará como resultado un rendimiento muy eficiente y más barato de la distribución inicial de tokens CNT.",
     "faq_q2": "¿Cuál sería la hoja de ruta y dónde está ahora el proyecto?",
