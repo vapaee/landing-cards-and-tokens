@@ -8,6 +8,7 @@ import { HomePage } from './pages/home/home.page';
 import { NotFoundPage } from './pages/not-found/not-found.page';
 import { RootPage, PageContainer } from './pages/root/root.page';
 import { FaqPage } from './pages/faq/faq.page';
+import { RedirectPage } from './pages/redirect/redirect.page';
 import { AlbumTelosPage } from './pages/album-telos/album-telos.page';
 import { AlbumOpenmicPage } from './pages/album-openmic/album-openmic.page';
 import { TokenPage } from './pages/token/token.page';
@@ -39,7 +40,8 @@ import { HowItWorksPage } from './pages/how-it-works/how-it-works.page';
         PageContainer,
         CardsPage,
         LoadingOverall,
-        HowItWorksPage
+        HowItWorksPage,
+        RedirectPage
     ],
     imports: [
         HttpClientModule,
