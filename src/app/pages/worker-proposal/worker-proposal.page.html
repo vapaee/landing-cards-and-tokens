@@ -1,0 +1,135 @@
+<div class="container text-center margin-top-xxxl">
+    <div class="text-white text-left">
+        <div class="text-center">
+            <div class="figure">
+                <img src="assets/cards-and-tokens-full.png" alt="cards-and-tokens-full.png" />
+            </div>
+            <h5>Vapaée - worker proposal 1</h5>            
+        </div>
+        <h1 class="margin-top-xxxl" id="financing">Financing the RAM cost of the <strong>Cards &amp; Tokens</strong> smart contracts</h1>
+        <h2 class="margin-top-xxl" id="how-much">How much is asked and for what exactly ?</h2>
+        <ul>
+            <li>
+            <h3 class="margin-top-xxl" id="summary">Summary: 30,000.0000 TLOS to buy resources for the Cards &amp; Tokens platform.</h3>
+            <ul>
+                <li>~27K TLOS for buying 300Mb RAM for three of the four smart contracts (100Mb each at 0.09 TLOS per 1Kb).</li>
+                <li>~3K TLOS for staking (CPU &amp; BW) for all contracts.</li>
+                <li>928 TLOS for the worker proposal deposit of 3% of the requested proposal amount.</li>
+            </ul>
+            </li>
+            <li>
+            <h3>More detailed:</h3>
+            <ul>
+                <li>
+                    The entire system of <strong>Cards &amp; Tokens</strong> consists of four smart contracts:
+                    <ul>
+                        <li><strong>cardsntokens</strong>: implements the details of the application <em>per se</em> (cards, contnet, points, album integration, templates, prices, etc).</li>
+                        <li><strong>boardgamebox</strong>: implements abstract gamification services (profiles, authorship, ownership, items, containers and many more comming soon).</li>
+                        <li><strong>vapaeetokens</strong>: implements system tokens (CNT, and others to come). Plus some other features like: auto claim airdrop, token exchange and staking.</li>
+                        <li><strong>categorizers</strong>: implements decentralized content categorization and filtering.</li>
+                    </ul>
+                </li>
+                <li>Because the total RAM cost for the contract <strong>vapaeetokens</strong> was not that high (less than 5Mb), I was able to pay it off completely from my own money.</li>
+                <li>However, I needed several months to raise some money to pay the cost of a reasonable amount of RAM for the entire system but unfortunately I lost everything when I was hacked recently. It was planned to buy 100M of RAM for each of the other three contracts (<strong>cardsntokens</strong>, <strong>boardgamebox</strong> and <strong>categorizers</strong>).</li>
+                <li>The total cost in TLOS is less than 30K TLOS for the 300Mb RAM. The rest of the Tokens are planned to be staked for CPU and Band Width. ## What is <strong>Cards &amp; Tokens</strong> ?</li>
+            </ul>
+            </li>
+        </ul>
+        <h2 class="margin-top-xxl" id="cnt">What is <strong>Cards & Tokens</strong> ?</h2>
+        <ul>            
+            <li>
+            <h3 class="margin-top-xxl" id="platform">It's an entertainment platform where users can create collectible cards and thematic albums to fill and win tokens.</h3>
+            <ul>
+                <li>In this platform content creators may publish great trading cards embedding their work on each card. Then they can sell, auction or give away copies of those cards for the rest of users to collect.</li>
+                <li>Cards will gain points as people interact with them through likes, comments, categorizations and market stats. That makes the cards to level up.</li>
+                <li>The albums are the first type of minigame in which users may play using the copies they have, add points to the album and competing with others users for a position in the ranking.</li>
+                <li>The platform is a plugin-driven structure, allowing other Apps to implement all kind of plugins using the cards as the main gaming object.</li>
+            </ul>
+            </li>
+            <li>
+            <h3 class="margin-top-xxl" id="gamification">This platform is designed to provide abstract gamification services to other applications through its low-level <strong>boardgamebox</strong> module.</h3>
+            Some of those services would be:
+            <ul>
+                <li>profiles: each account can have more than one profile (like in facebook you can have your personal acount plus several pages)</li>
+                <li>items &amp; containers: apps may register and define several items and containers. Then delegate to this module all kind of functionalities arround those concepts like:</li>
+                <li>creation: create containers with specific item filters, issue container instances for specific profile, create new specific items, issue units of those specific items, etc.</li>
+                <li>storage: store item's units inside a specific container instance, swap unit's places, swap unit's container, modify container instance capacity, etc.</li>
+                <li>market: create buy/sell order for specific unit and specific amount, auction a lot of units of specific item, give away a lot of units of specific item, etc.</li>
+                <li>ownership: each instance of any element (item or container) has an owner profile. If the element provides any benefit, all owners of each instance will receive it.</li>
+                <li>authorship: each element has at least one author profile. If the element receives rewards it will be distributed among all author profiles depending on the percentage of authorship.</li>
+                <li>more coming soon...</li>
+            </ul>
+            </li>
+            <li>
+            <h3 class="margin-top-xxl" id="categorization">Another type of service this platform will provide is content categorization through its low-level <strong>categorizers</strong> module.</h3>
+            Some of the items in the system are user made and those we can't trust the user's first categorization. We need lots of people to take the time to watch each item closely and make a good categorization. The <strong>categorizers</strong> module will implement an economy model with the following features:
+            <ul>
+                <li>cats (categorizers) will level up as they categorize more and more content and get support from other cats (they agree).</li>
+                <li>monetary inflation finances the rewards of cats, depending on their level.</li>
+                <li>content creators may pay for their work to be seen and categorized.</li>
+                <li>publishers may pay to cats fo find and redirect specific content that fits certain filter ## Why does it need so much RAM ?</li>
+            </ul>
+            </li>
+        </ul>
+        <h2 class="margin-top-xxl" id="need">Why does it need so much RAM ?</h2>
+        <ul>
+            <li>
+            <h3 class="margin-top-xxl" id="ram-consumer"><strong>Cards &amp; Tokens</strong> platform is a very high RAM consumer because users will collect NFTs, which are stored separately on memory.</h3>
+            <ul>
+                <li>NTF: stands for Not Fungible Token, meaning that two units of the same token type can not be merged together. Each of them must be stored on its own place (physically on memory). That is because each instance has its own properties. Eg: where is the unit located? is there any add-on affecting a specific unit? has the unit any enhancement over the rest?</li>
+                <li>In this platform users collect copies of cards and each one has to be stored in a specific container in a specific place (like the inventory or any album). Some slots of some albums will have specific modifiers on the points that a copy of the card grants if it's placed there. For that to work, we need to store all of that data separately on memory.</li>
+            </ul>
+            </li>
+            <li>
+            <h3 class="margin-top-xxl" id="technology-behind">This platform is planned to be implemented in such way that users don't have to worry about the technology behind (until certain threshold).</h3>
+            <ul>
+                <li>In Cards &amp; Tokens users can create an account by simply login with other social medias like twitter, google or steemit. This way we can reduce the addoption friction for new users to start using the platform.</li>
+                <li>Under the hood, the platform manages all the interaction with the blockchain without the user even being aware of that. It creates a temporary profile in the <strong>boardgamebox</strong> module and keeps the ownership of that profile until the user claims it.</li>
+                <li>These temporary profiles will have certain limitations, which will motivate the users to create their own account on the Telos blockchain and claim the authorship of their profile. This way the user is highly motivated to learn how to interact with the blochcian with his or her own account, and as a reward, getting access to all the functionalities of the system.</li>
+                <li>we will have a lot of categorization data for each card. That data is generated by people that is actually contributing with work, so is not good idea to charge those people for that data's RAM. We need the system to store that for them. ## Who benefit from this financing ?</li>
+            </ul>
+        </ul>
+        <h2 class="margin-top-xxl" id="benefit">Who benefit from this financing ?</h2>
+        <ul>
+            <li>The beneficiaries would be the users of <strong>Cards &amp; Tokens</strong> because they will not have to run with the high RAM costs that the platform requires.</li>
+            <li>The main and biggest beneficiaries will be the new users, who despite having few resources to interact with the blockchain will still be able to interact with this platform and collect lots of cards.</li>
+            <li><strong>Cards &amp; Tokens</strong> will be fully developed on Telos chain. So, if it is successful (and I am very confident that it will be) it will attract many users to this network, which will greatly benefit the entire Telos community. ## Why go to a worker proposal ?</li>
+        </ul>
+        <h2 class="margin-top-xxl" id="worker-proposal">Why go to a worker proposal ?</h2>
+        <ul>
+            <li>Given that &quot;if <strong>Cards &amp; Tokens</strong> is successful it would benefit the Telos community&quot;, it is prudent to ask the community itself for help to make this success even more likely.</li>
+            <li>Although I am working hard to form a company and be able to dedicate myself completely to this, I still do not have the financial resources to do it and I must work on something else (have a job) to cover the basic cost of living.</li>
+            <li><p>Throughout these last three months I have been able to save the extra earnings on my normal salary, in order to pay the cost of that RAM. However, I had the misfortune of being hacked in my account and all the funds that I had saved were stolen.</p></li>
+        </ul>
+        <h2 class="margin-top-xxl" id="timing">What are the timing for the releases ?</h2>
+        <p>Behind this project it's just only me, working hard on every free time I have (weekends, licences, holidays, after midnight, etc). I'm really passionate about this project and I will make it work for sure, but for now I can't guarantee timing because it goes slow (but as fast as I can). You can check the following Read Map where I just finished to write the worker proposal. The <strong>orange points</strong> are the ones I'm working on right now.</p>
+        <ul class="no-points">
+            <li><i class="fa fa-check-square-o text-success"></i> - <span>Build a functional prototype (proof of concept, no blockchain involved).</span></li>
+            <li><i class="fa fa-check-square-o text-success"></i> - <span>Create social accounts and start creating community.</span></li>
+            <li><i class="fa fa-check-square-o text-success"></i> - <span>Communicate with the Telos Foundation seeking support.</span></li>
+            <li><i class="fa fa-check-square-o text-success"></i> - <span>Build Telos Albums and 10 Telos trading cards.</span></li>
+            <li><i class="fa fa-check-square-o text-success"></i> - <span>Update the landing page.</span></li>
+            <li><i class="fa fa-check-square-o text-success"></i> - <span>Perform the CNT Token Airdrop ('vapaeetokens' smart contract).</span></li>
+            <li><i class="fa fa-check-square-o text-success"></i> - <span>Write a worker proposal to ask for RAM financing.</span></li>
+            <li><i class="fa fa-check-square text-warning"></i> - <span><b>Listing the CNT token in different exchanges</b> (a week or more).</span></li>
+            <li><i class="fa fa-check-square text-warning"></i> - <span><b>Write a white paper for the project</b> (couple of days).</span></li>
+            <li><i class="fa fa-check-square text-warning"></i> - <span><b>Build the base functionalities of items and containers ('boardgamebox' smart contract)</b> (about a month).</span></li>
+            <li><i class="fa fa-square-o text-danger"></i> - <span>Build the cards, inventory, albums and templates ('cardsntokens' smart contract) (about a month).</span></li>
+            <li><i class="fa fa-square-o text-danger"></i> - <span>Build a webapp interacting with the smart contracts on Telos (a week or more).</span></li>
+            <li><i class="fa fa-square-o text-danger"></i> - <span>Reward Steemit OpenMic trading cards authors with CNT tokens over Telso blockchain.</span></li>
+            <li><i class="fa fa-square-o text-danger"></i> - <span>There will be test period and fine tuning before your DApp goes live.</span></li>
+            <li><i class="fa fa-square-o text-danger"></i> - <span>There are several ideas and complex features which will be added as DApps gets mature.</span></li>
+        </ul>
+        <h2 class="margin-top-xxl" id="links-and-references">Links and References</h2>
+        <ul>
+            <li><a href="http://cardsandtokens.com">web site</a></li>
+            <li><a href="https://www.youtube.com/watch?v=YSVJgKsSobA">video - last year promo (outdated)</a></li>
+            <li><a href="http://app.cardsandtokens.com/">demo web app</a></li>
+            <li><a href="https://www.youtube.com/watch?v=jhL1KyifGEs">video - demo</a></li>
+            <li><a href="https://steemit.com/eos/@viterbo/cards-and-tokens-cnt-token-airdrop">CNT airdrop</a></li>
+            <li><a href="https://t.me/cardsandtokens">Telegram group</a></li>
+            <li><a href="https://steemit.com/telos/@viterbo/about-my-telos-account-hack">post about my hack</a></li>
+        </ul>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>

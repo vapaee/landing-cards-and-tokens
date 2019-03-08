@@ -24,6 +24,7 @@ import { CardsPage } from './pages/cards/cards.page';
 import { SocialLoginModule } from './modules/social-login';
 import { BroadcastService } from './services/broadcast.service';
 import { HowItWorksPage } from './pages/how-it-works/how-it-works.page';
+import { WorkerProposalPage } from './pages/worker-proposal/worker-proposal.page';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { HowItWorksPage } from './pages/how-it-works/how-it-works.page';
         CardsPage,
         LoadingOverall,
         HowItWorksPage,
-        RedirectPage
+        RedirectPage,
+        WorkerProposalPage
     ],
     imports: [
         HttpClientModule,

@@ -11,9 +11,11 @@ import { TokenPage } from './pages/token/token.page';
 import { CardsPage } from './pages/cards/cards.page';
 import { HowItWorksPage } from './pages/how-it-works/how-it-works.page';
 import { RedirectPage } from './pages/redirect/redirect.page';
+import { WorkerProposalPage } from './pages/worker-proposal/worker-proposal.page';
 
 const routes: Routes = [
   { path: '',                     data: { state: "root" }, redirectTo: '/home', pathMatch: 'full' },
+  { path: 'worker-proposal',      data: { state: "worker-proposal" }, component: WorkerProposalPage },
   { path: '',                     data: { state: "root" }, component: RootPage,
     children: [
       { path: 'home',             data: { state: "home" }, component: HomePage },
