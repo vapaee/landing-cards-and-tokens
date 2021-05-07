@@ -2,5 +2,9 @@
     {
         "text": "Español",
         "key": "es_ES"
+    },
+    {
+        "text": "English",
+        "key": "en_US"
     }
 ]
